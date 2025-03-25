@@ -1,0 +1,28 @@
+.stream-card-slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+}
+
+.slider-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-content.current {
+    transform: translateX(0);
+    z-index: 1; 
+}
+
+.slider-content.next {
+    transform: translateX(100%);
+    z-index: 0; 
+}
+
+.slider-content.next.slide-in {
+    transform: translateX(0); 
+    z-index: 3;
+}

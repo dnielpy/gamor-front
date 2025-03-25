@@ -1,0 +1,17 @@
+.container {
+    background-color: #2F323A;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0 40px;
+    height: 600px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+.search-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.search-input-field {
+    height: 40px;
+    width: 200px;
+    background-color: #262c3300;
+    border: solid 0pc black;
+    font-size: 15px;
+    color: #acadaf;
+    font-weight: 700;
+}
+
+.search-input-field:focus {
+    outline: none;
+}

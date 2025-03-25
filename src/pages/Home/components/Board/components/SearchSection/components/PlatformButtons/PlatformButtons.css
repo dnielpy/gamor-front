@@ -1,0 +1,74 @@
+.selector-container{
+    background-color: #262C33;
+    border-radius: 50px;
+    display: flex;
+    padding: 5px;
+    align-self: center;
+}
+
+.platform-button{
+    border: solid 0px black;
+    border-radius: 50px;
+    height: 50px;
+    width: 115px;
+    background-color: #262C33;
+    color: #8F929A;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    padding-right: 30px;
+}
+.platform-button.active {
+    background-color: #3C3F47;
+    color: #D7DAE0;
+}
+
+.platform-button:hover{
+    color: #D7DAE0;
+    content: " 🎉";
+    background-color: #3C3F47;
+}
+
+.party-button.active::before{
+    content: "🎉 ";
+    opacity: 1;
+}
+
+.party-button::before {
+    content: "🎉 ";
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.party-button:hover::before {
+    opacity: 1;
+}
+
+.match-button.active::before{
+    content: "⚔️ ";
+    opacity: 1;
+}
+
+.match-button::before {
+    content: "⚔️ ";
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.match-button:hover::before {
+    opacity: 1;
+}
+
+.streams-button.active::before{
+    content: "📺 ";
+    opacity: 1;
+}
+
+.streams-button::before {
+    content: "📺 ";
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.streams-button:hover::before {
+    opacity: 1;
+}

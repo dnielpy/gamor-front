@@ -1,0 +1,13 @@
+.categories-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.categories-tittle{
+    margin-top: 100px;
+    text-align: start;
+    font-size: 20px;
+    font-weight: 500;
+}

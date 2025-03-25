@@ -1,0 +1,294 @@
+{
+    "streams": [
+        {
+            "id": 1,
+            "name": "Shroud",
+            "game": "Call of Duty: Warzone",
+            "hour": "13:23",
+            "color": "#1E90FF",
+            "category": [true, false, true],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar1.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/1.png"
+        },
+        {
+            "id": 2,
+            "name": "Rubius",
+            "game": "Call of Duty: Warzone",
+            "hour": "13:23",
+            "color": "#1E90FF",
+            "category": [false, true, false],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar1.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/1.png"
+        },
+        {
+            "id": 3,
+            "name": "Tfue",
+            "game": "Fortnite",
+            "hour": "14:45",
+            "color": "#00BFFF",
+            "category": [true, true, false],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar2.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/2.png"
+        },
+        {
+            "id": 4,
+            "name": "Myth",
+            "game": "Fortnite",
+            "hour": "14:45",
+            "color": "#00BFFF",
+            "category": [false, true, true],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar2.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/2.png"
+        },
+        {
+            "id": 5,
+            "name": "SypherPK",
+            "game": "Fortnite",
+            "hour": "14:45",
+            "color": "#00BFFF",
+            "category": [true, false, true],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar2.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/2.png"
+        },
+        {
+            "id": 6,
+            "name": "Kurt0411",
+            "game": "FIFA 23",
+            "hour": "15:30",
+            "color": "#228B22",
+            "category": [false, false, true],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar3.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/1.png"
+        },
+        {
+            "id": 7,
+            "name": "Bateson87",
+            "game": "FIFA 23",
+            "hour": "15:30",
+            "color": "#228B22",
+            "category": [true, false, false],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar3.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/1.png"
+        },
+        {
+            "id": 8,
+            "name": "Castro1021",
+            "game": "FIFA 23",
+            "hour": "15:30",
+            "color": "#228B22",
+            "category": [true, true, false],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar3.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/1.png"
+        },
+        {
+            "id": 9,
+            "name": "Hashtag Harry",
+            "game": "FIFA 23",
+            "hour": "15:30",
+            "color": "#228B22",
+            "category": [false, true, true],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar3.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/1.png"
+        },
+        {
+            "id": 10,
+            "name": "PESEP",
+            "game": "eFootball PES 2023",
+            "hour": "16:15",
+            "color": "#1E90FF",
+            "category": [true, false, true],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar4.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/2.png"
+        },
+        {
+            "id": 11,
+            "name": "LFFL",
+            "game": "eFootball PES 2023",
+            "hour": "16:15",
+            "color": "#1E90FF",
+            "category": [false, false, true],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar4.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/2.png"
+        },
+        {
+            "id": 12,
+            "name": "PES Universe",
+            "game": "eFootball PES 2023",
+            "hour": "16:15",
+            "color": "#1E90FF",
+            "category": [true, true, true],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar4.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/2.png"
+        },
+        {
+            "id": 13,
+            "name": "WENB",
+            "game": "eFootball PES 2023",
+            "hour": "16:15",
+            "color": "#1E90FF",
+            "category": [false, true, false],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar4.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/2.png"
+        },
+        {
+            "id": 14,
+            "name": "Lex Veldhuis",
+            "game": "PokerStars",
+            "hour": "17:00",
+            "color": "#EF864B",
+            "category": [true, false, false],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar2.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/1.png"
+        },
+        {
+            "id": 15,
+            "name": "Jaime Staples",
+            "game": "PokerStars",
+            "hour": "17:00",
+            "color": "#EF864B",
+            "category": [false, true, true],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar2.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/1.png"
+        },
+        {
+            "id": 16,
+            "name": "PokerStars",
+            "game": "PokerStars",
+            "hour": "17:00",
+            "color": "#EF864B",
+            "category": [false, false, false],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar2.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/1.png"
+        },
+        {
+            "id": 17,
+            "name": "Fintan Hand",
+            "game": "PokerStars",
+            "hour": "17:00",
+            "color": "#EF864B",
+            "category": [true, true, false],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar2.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/1.png"
+        },
+        {
+            "id": 18,
+            "name": "Asmongold",
+            "game": "World of Warcraft",
+            "hour": "18:20",
+            "color": "#4B0082",
+            "category": [false, true, true],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar2.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/2.png"
+        },
+        {
+            "id": 19,
+            "name": "Preach Gaming",
+            "game": "World of Warcraft",
+            "hour": "18:20",
+            "color": "#4B0082",
+            "category": [true, false, true],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar2.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/2.png"
+        },
+        {
+            "id": 20,
+            "name": "Taliesin & Evitel",
+            "game": "World of Warcraft",
+            "hour": "18:20",
+            "color": "#4B0082",
+            "category": [true, true, false],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar2.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/2.png"
+        },
+        {
+            "id": 21,
+            "name": "Maximum",
+            "game": "World of Warcraft",
+            "hour": "18:20",
+            "color": "#4B0082",
+            "category": [false, false, true],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar2.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/2.png"
+        },
+        {
+            "id": 22,
+            "name": "Gorgc",
+            "game": "Dota 2",
+            "hour": "19:10",
+            "color": "#FF8C00",
+            "category": [true, false, false],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar3.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/1.png"
+        },
+        {
+            "id": 23,
+            "name": "BSJ",
+            "game": "Dota 2",
+            "hour": "19:10",
+            "color": "#FF8C00",
+            "category": [false, true, false],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar3.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/1.png"
+        },
+        {
+            "id": 24,
+            "name": "Arteezy",
+            "game": "Dota 2",
+            "hour": "19:10",
+            "color": "#FF8C00",
+            "category": [true, true, true],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar3.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/1.png"
+        },
+        {
+            "id": 25,
+            "name": "SumaiL",
+            "game": "Dota 2",
+            "hour": "19:10",
+            "color": "#FF8C00",
+            "category": [false, false, false],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar3.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/1.png"
+        },
+        {
+            "id": 26,
+            "name": "Speedrunner",
+            "game": "Minesweeper",
+            "hour": "20:05",
+            "color": "#808080",
+            "category": [false, true, false],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar3.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/1.png"
+        },
+        {
+            "id": 27,
+            "name": "Minesweeper",
+            "game": "Minesweeper",
+            "hour": "20:05",
+            "color": "#808080",
+            "category": [true, false, true],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar3.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/1.png"
+        },
+        {
+            "id": 28,
+            "name": "PuzzleMaster",
+            "game": "Minesweeper",
+            "hour": "20:05",
+            "color": "#808080",
+            "category": [false, false, true],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar3.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/1.png"
+        },
+        {
+            "id": 29,
+            "name": "RetroGamer",
+            "game": "Minesweeper",
+            "hour": "20:05",
+            "color": "#808080",
+            "category": [true, true, false],
+            "avatarImg": "../../../../../../../src/assets/images/avatars/avatar3.png",
+            "iconImg": "../../../../../../../src/assets/images/channelsIcons/1.png"
+        }
+    ]
+}

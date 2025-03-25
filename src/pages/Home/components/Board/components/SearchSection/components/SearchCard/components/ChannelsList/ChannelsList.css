@@ -1,0 +1,68 @@
+.channel-item {
+    
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    gap: 30px;
+    width: 300px;
+}
+
+.icon {
+    height: 20px;
+}
+
+.channel-icon{
+    height: 40px;
+    width: 40px;
+}
+
+.channels-to-be-added {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 0px solid;
+    padding: 0px;
+    box-sizing: border-box;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+}
+
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.channel-id {
+    padding-top: 2px;
+    background-color: #202228;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #acadaf
+}
+
+.add-button{
+    background-color: #4D5358;
+    border: solid 0px;
+    border-radius: 3px;
+    height: 20px;
+    width: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-button:hover {
+    background-color: #f2774e;
+    transform: scale(1.05);
+    color: #EFEDEE;
+}

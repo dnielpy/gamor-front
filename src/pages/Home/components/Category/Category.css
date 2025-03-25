@@ -1,0 +1,40 @@
+.category-container{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 315px;
+    background-color: #2E323A;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 0px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.category-container:hover {
+    transform: scale(1.05);
+}
+
+.span{
+    color: #EF864B;
+}
+
+.category-id{
+    color: #767B83;
+}
+
+.category-name{
+    font-weight: 600;
+    color: #D5D7DC;
+}
+
+.category-name, /* Añade h3 para mantener el estilo */
+h3.category-name {
+    /* ...existing styles... */
+}
+
+.arrow-img{
+    width: 20px;
+    height: 30px;
+}
