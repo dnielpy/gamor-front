@@ -51,7 +51,6 @@ function Board() {
             const matchesCategory = stream.category.some((value, index) => value && category[index]);
             return matchesName && matchesCategory;
         });
-        console.log(category);
         setSearchedStreams(filteredStreams);
     }
 

@@ -1,0 +1,13 @@
+.change-theme-button{
+    background-color: rgba(240, 255, 255, 0);
+    border: solid 0px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.change-theme-button:hover{
+    transform: scale(1.05);
+}
+
+.theme-icon{
+    height: 30px;
+}

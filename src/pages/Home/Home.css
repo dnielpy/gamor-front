@@ -1,3 +1,4 @@
+
 .categories-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -11,3 +12,4 @@
     font-size: 20px;
     font-weight: 500;
 }
+

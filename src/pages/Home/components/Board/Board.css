@@ -1,5 +1,5 @@
 .container {
-    background-color: #2F323A;
+    background-color: var(--board-color);
     border-radius: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);

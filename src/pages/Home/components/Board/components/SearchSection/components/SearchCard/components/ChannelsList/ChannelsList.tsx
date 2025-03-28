@@ -14,7 +14,7 @@ function ChannelsList() {
             {dataContext.searchedStreams.map((streamer) => (
                 <div key={streamer.id} className='channel-item'>
                     <div className='channel-id'>{streamer.id}</div>
-                    {streamer.name}
+                    <div className='channel-name'> {streamer.name} </div>
                     <img className='channel-icon' src={streamer.iconImg} alt={`${streamer.name} icon`} />
                     <button className='add-button' onClick={() => dataContext.addNewStreamer(streamer.id)}>+</button>
                 </div>

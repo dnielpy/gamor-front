@@ -5,17 +5,17 @@
     border: none;
     border-radius: 25px;
     background-color: #EFEDEE;
-    color: #E65A2B;
+    color: var(--stream-container-background-color);
     font-weight: 600;
     font-size: 25px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: 0.3s ease, transform 0.2s ease;
     text-transform: uppercase;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .stream-clock:hover {
-    background-color: #E65A2B;
+    background-color: var(--streaming-light);
     color: #EFEDEE;
     transform: scale(1.05);
 }

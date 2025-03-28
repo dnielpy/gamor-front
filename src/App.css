@@ -1,14 +1,30 @@
 #root {
+  margin: 0 auto; 
   max-width: 1280px;
-  margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: var(--app-background-color);   
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 
 @media (prefers-color-scheme: dark) {
   :root {
-    background-color: var(--app-background-color);   
+    --background-color: var(--dark-background-color);
+    --text-color: var(--dark-text-color);
   }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: var(--light-background-color);
+    --text-color: var(--light-text-color);
+  }
+}
+
+.app.dark-theme {
+  background-color: var(--background-color); 
+}
+
+.app.light-theme {
+  background-color: var(--background-color);
 }

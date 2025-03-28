@@ -4,7 +4,7 @@
     --button-background-color: #272B34;
     --button-background-color-hover: #353942;
     --tittle-color: #2D313A;
-    --subtittles-color: #51565ab7;
+    --subtitles-color: #51565ab7;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,7 +13,7 @@
         --button-background-color-hover: #9057e4;
         background-color: #272B34;
         --tittle-color: #DBDFE2;
-        --subtittles-color: #BDC1CC;
+        --subtitles-color: #BDC1CC;
         --forgot-password-text-color: #7F3CE1;
     }
 }
@@ -23,7 +23,7 @@
     .tittle-2{
         display: none;
     }
-    .loggin-container {
+    .login-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
@@ -62,7 +62,7 @@
 
 /* MOBILE */
 @media (max-width: 1023px) {
-    .loggin-container {
+    .login-container {
         grid-template-rows: auto auto;
         padding: 15px;
         gap: 15px;
@@ -98,7 +98,7 @@
         margin: 0 auto;
     }
 
-    .inputs {
+    .login-input {
         width: 90%;
         max-width: 100%;
         padding: 10px;
@@ -133,7 +133,7 @@
 }
 
 .subtitles {
-    color: var(--subtittles-color);
+    color: var(--subtitles-color);
     font-size: medium;
     margin-bottom: 5px;
 }
@@ -148,7 +148,7 @@
     font-weight: 600;
 }
 
-.loggin-container {
+.login-container {
     display: grid;
     grid-template-rows: auto;
     gap: 10px;
@@ -168,7 +168,7 @@
     object-fit: contain;
 }
 
-.inputs {
+.login-input {
     padding: 15px 0;
     font-size: 18px;
     border: 1px solid #ccc;
@@ -180,13 +180,13 @@
     box-sizing: border-box;
 }
 
-::placeholder {
+.placeholder {
     color: #8797aec7;
     padding: 20px;
     text-align: center;
 }
 
-input:focus {
+.login-input:focus {
     outline: none;
     border-color: #7F3CE1;
     box-shadow: 0 0 5px rgba(127, 60, 225, 0.5);
@@ -194,7 +194,7 @@ input:focus {
     text-align: center;
 }
 
-input:not(:focus) {
+.login-input:not(:focus) {
     text-align: center;
     color: #8797aec7;
 }   

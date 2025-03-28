@@ -1,12 +1,12 @@
-import { useState, useEffect } from 'react';
 import './Home.css'
 import Header from './components/Navbar';
 import Board from './components/Board/';
 import Category from './components/Category';
 
-function Home() {
+
+function Home() {   
     return (
-        <div>
+        <div className='home'>
             <Header></Header>
             <main>
                 <Board></Board>

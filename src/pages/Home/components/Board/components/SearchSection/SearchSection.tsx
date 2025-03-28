@@ -12,7 +12,7 @@ function SearchSection() {
     const dataContext = useContext(DataContext);
 
     if (!dataContext) {
-        return null; // Manejo de error si el contexto es nulo
+        return null; 
     }
 
     return (

@@ -10,7 +10,7 @@ interface StreamCardProps {
 
 function StreamCard({ title, time, color, avatar }: StreamCardProps) {
     return (
-        <div className="streams-container" style={{ backgroundColor: color }}>
+        <div className="streams-container">
             <h1 className="stream-title">{title}</h1>
             <p className="stream-subtitle">Join Live Stream</p>
 

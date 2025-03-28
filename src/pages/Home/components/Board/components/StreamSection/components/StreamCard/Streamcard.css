@@ -1,5 +1,6 @@
 
 .streams-container {
+    background-color: var(--stream-container-background-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,13 +10,14 @@
     position: relative;
 }
 
-.stream-tittle {
+.stream-title {
     font-weight: 600;
     font-size: 24px;
+    color: #EAEDF2;
 }
 
-.stream-subtittle {
-    color: #DA7237;
+.stream-subtitle {
+    color: #41454d65;
     font-weight: 500;
 }
 

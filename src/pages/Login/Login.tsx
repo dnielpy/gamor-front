@@ -1,7 +1,7 @@
 import '../Login/Login.css';
 import { useState, useEffect } from 'react';
 
-function Loggin() {
+function Login() {
     const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
 
     useEffect(() => {
@@ -16,7 +16,7 @@ function Loggin() {
     const mobileImage = "src/assets/images/Component2.png";
 
     return (
-        <div className="loggin-container">
+        <div className="login-container">
             <div className="left-content">
                 <div className="header">
                     <h1 className="tittle">welcome <br></br><span className="highlight">back</span> <span role="img" aria-label="wave">🖖🏻</span></h1>
@@ -27,7 +27,7 @@ function Loggin() {
                         <input
                             type="email"
                             placeholder="example@email.com"
-                            className="inputs"
+                            className="login-input"
                             required
                         />
                     </form>
@@ -38,13 +38,13 @@ function Loggin() {
                         <input
                             type="password"
                             placeholder="at least 8 characters"
-                            className="inputs"
+                            className="login-input"
                             required
                         />
                     </form>
                     <a href="#" className="forgot-password">forgot password?</a>
                 </div>
-                <button className="button" type="submit" onClick={() => console.log('clickeado')}>Sign in</button>
+                <button className="button" type="submit">Sign in</button>
             </div>
             <div className="image">
                 <h1 className="tittle-2">welcome <span className="highlight">back</span> <span role="img" aria-label="wave">🖖🏻</span></h1>
@@ -58,4 +58,4 @@ function Loggin() {
     );
 }
 
-export default Loggin;
+export default Login;

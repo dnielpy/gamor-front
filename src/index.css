@@ -2,12 +2,71 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-
-  --app-background-color: #272B34; 
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --primary-text-color: #EAEDF2;
+  --inverse-primary-text-color: #343437;
+  --secondary-text-color: #ABAEB4;
+  --third-text-color: #C5C8CF;
+  --streaming-light: #803CE2;
+  --login-button-color: #41454D;
+
+  --stream-container-background-color: #EF864B;
+  --search-widget-background-color: #272C34;     
+  --platform-button-background-color: #3B3F47;
+
+  --search-button-background-color: #EEEDEE;
+  --search-button-shadow: #272C34;
+  
+  --id-background-color: #202228;
+
+  --board-color: #DFE0E3;
+  --light-board-background-color: #DFE0E3;
+  --buttons-light: #EF864B;
+}
+
+body {
+  margin: 0; 
+  background-color: var(--background-color); 
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: var(--primary-text-color); 
+}
+
+body.dark-theme {
+  --primary-text-color: #EAEDF2;
+  --secondary-text-color: #ABAEB4;
+ 
+  --background-color: #262C33; 
+  --board-color: #2E323A;
+  background-color: var(--background-color);
+  color: var(--primary-text-color); 
+}
+
+body.light-theme {
+  --primary-text-color: #343437;
+  --inverse-primary-text-color: #EAEDF2;
+  --secondary-text-color: #68666E;
+  --third-text-color: #292C30;
+  --streaming-light: #ef7d3b;
+  --platform-button-background-color: #e4e3e4;
+  --stream-container-background-color: #803CE2;
+
+  --search-widget-background-color: #f8f8f8;
+
+  --search-button-background-color: #272C34;
+  --search-button-shadow: #d8d8d8;
+
+  --id-background-color: #f1f1f1;
+
+  --platform-widget-background-color: #f8f8f8;
+
+  --login-button-color: #EEEDEE;
+
+  --background-color: #E1E2E5; 
+  --board-color: #efeff2;
+  background-color: var(--background-color);
+  color: var(--primary-text-color); 
 }

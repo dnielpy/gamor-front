@@ -16,11 +16,11 @@ function SearchBar() {
     };
 
     return (
-        <div className='search-input'>
+        <div className='channel-search-input'>
             <input
                 type="text"
                 placeholder="Search channels..."
-                className="search-input-field"
+                className="channel-search-input-field"
                 onChange={handleInputChange}
             />
             <button className="icon-button">

@@ -2,9 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    background-color: var(--app-background-color); /* Aplica el color de fondo */
-    padding: 10px 20px; /* Añade padding para espaciado */
+    background-color: var(--app-background-color); 
+    padding: 10px 20px; 
 }
+
 
 .navbar-container,
 .tittle-container,
@@ -19,43 +20,45 @@
 .texts {
     font-size: 15px;
     text-decoration: none;
-    color: #7D8389;
+    color: var(--secondary-text-color);
     font-weight: 500;
     transition: color 0.3s ease; 
+    cursor: pointer;
 }
 
 .texts:hover {
-    color: #C27F57; 
+    color: var(--buttons-light); 
 }
 
-.auth-text {
-    transition: color 0.3s ease; 
+.auth-container .auth-text {
+    text-decoration: none;
     font-size: 15px;
-    color: #bac5d0;
+    color: var(--third-text-color);
 }
 
-.auth-text:hover {
-    color: #C27F57; 
+.auth-container .auth-text:hover {
+    color: var(--buttons-light); 
 }
 
-.button {
+.login-navbar-button {
     padding: 20px 30px;
     background-color: #212329;
-    color: #bac5d0;
+    color: #d4d7db;
     border: 1px solid #bac5d082;
     border-radius: 100px;
     cursor: pointer;
     font-size: 14px;
-    font-weight: bold;
     transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: 500;
 }
 
-.button:hover {
-    background-color: #f5794f;
+.login-navbar-button:hover {
+    color: #EAEDF2;
+    background-color: var(--stream-container-background-color);
     transform: scale(1.05);
 }
 
-.button:active {
+.login-navbar-button:active {
     background-color: #C27F57;
 }
 
@@ -76,7 +79,7 @@
         font-size: 14px; 
     }
 
-    .button {
+    .login-navbar-button {
         padding: 15px 20px; 
         font-size: 12px; 
     }
@@ -87,7 +90,7 @@
         font-size: 12px; 
     }
 
-    .button {
+    .login-navbar-button {
         padding: 10px 15px;
         font-size: 10px;
     }

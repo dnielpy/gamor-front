@@ -1,21 +1,35 @@
-import './Navbar.css'
+import { Link, useNavigate } from 'react-router-dom';
+import ChangeThemeButton from './components/ChangeThemeButton';
+import './Navbar.css';
 
-function Navbar(){
-    return(
+function Navbar() {
+    const navigate = useNavigate();
+
+    const handleCreateAccount = () => {
+        navigate('/create-account');
+    };
+
+    return (
         <div className="header">
             <div className="navbar-container">
-                <a href="#" className="texts">Home</a>
-                <a href="#" className="texts">Stream</a>
-                <a href="#" className="texts">Party</a>
-                <a href="#" className="texts">Premium</a>
+                <Link to="/" className="texts">Home</Link>
+                <Link to="/" className="texts">Stream</Link>
+                <Link to="/" className="texts">Party</Link>
+                <Link to="/" className="texts">Premium</Link>
             </div>
             <div className="tittle-container">
-                <h1 className="tittle">Gamor</h1>
+                <h1 className="navbar-tittle">Gamor</h1>
             </div>
             <div className="auth-container">
-                <h3 className="auth-text">Sign in</h3>
-                <button className="button">Create account</button>
+                <Link to="/login" className="auth-text">Sign in</Link>
+                <button 
+                    className="login-navbar-button" 
+                    onClick={handleCreateAccount}
+                >
+                    Create account
+                </button>
             </div>
+            <ChangeThemeButton />
         </div>
     );
 }

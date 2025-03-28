@@ -1,3 +1,4 @@
+
 .search-section{
     padding: 20px 10px;
     display: flex;
@@ -18,12 +19,12 @@
 .platform-tittle{
     text-align: start;
     font-size: 25px;
-    color: #8F929A;
+    color: var(--secondary-text-color);
     align-self: flex-start;
 }
 
 .platform-span{
-    color: #d7dae0e1;
+    color: var(--primary-text-color);
     font-size: 20px;
 }
 
